@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="com.relfor.mydatabase.SearchEmployeeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/edtEmployeeNameSearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:hint="Name"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight=".3"
+            android:text="Search"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Name"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edtEmployeeName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Address"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edtEmployeeAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Phone"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edtEmployeePhone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="Salary"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edtEmployeeSalary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+<Button
+    android:layout_marginTop="30dp"
+    android:id="@+id/btnUpdate"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="110dp"
+    android:text="Update"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>
